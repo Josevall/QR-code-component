@@ -3,12 +3,13 @@ html {
     font-size: 62.5%;
 }
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--Light-gray);
     padding: 2rem;
     align-items:center;
     display: flex;
     align-items: center;
+    overflow-y: hidden;
 }
 :root {
     --White: hsl(0, 0%, 100%);
@@ -32,7 +33,7 @@ img {
 .text {
     text-align: center;
 }
-h2 {
+h1 {
     color: var(--Dark-blue);
     margin: 0 3rem;
     font-size: 2.3rem;
