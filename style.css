@@ -3,7 +3,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    height: 90vh;
+    height: 100vh;
     background-color: var(--Light-gray);
     padding: 2rem;
     align-items:center;
